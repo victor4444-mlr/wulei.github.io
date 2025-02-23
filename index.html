@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>我们的故事</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">首页</a>
+            <a href="#about">关于我们</a>
+            <a href="#photos">照片墙</a>
+            <a href="#contact">联系我们</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero" style="background-image: url('https://i.ibb.co/JFqZ0N9Q/background-2.jpg');">
+        <h1>我们的爱情故事</h1>
+        <p class="subtitle">每一天都是新的开始</p>
+    </section>
+
+    <section id="photos" class="carousel-section">
+        <h2>美好瞬间</h2>
+        <div class="carousel">
+            <button class="carousel-button prev">❮</button>
+            <div class="carousel-container">
+                <img src="https://i.ibb.co/G4vq3h1b/carousel-1.jpg" alt="照片1" loading="eager">
+                <img src="https://i.ibb.co/ymtHJbg7/carousel-2-1.jpg" alt="照片2" class="focus-top" loading="lazy">
+                <img src="https://i.ibb.co/5WyTRn2W/carousel-2-2.jpg" alt="照片3" loading="lazy">
+                <img src="https://i.ibb.co/VYDH4gWc/carousel-2-3.jpg" alt="照片4" loading="lazy">
+                <img src="https://i.ibb.co/bMcqKztg/carousel-2-4.jpg" alt="照片5" class="focus-center" loading="lazy">
+                <img src="https://i.ibb.co/Tx31tS63/carousel-2-5.jpg" alt="照片6" loading="lazy">
+                <img src="https://i.ibb.co/qMXsshgR/carousel-2-6.jpg" alt="照片7" loading="lazy">
+                <img src="https://i.ibb.co/Pv4tmMhY/carousel-2-7.jpg" alt="照片8" loading="lazy">
+                <img src="https://i.ibb.co/WWhJBFhg/carousel-2-8.jpg" alt="照片9" class="focus-center" loading="lazy">
+                <img src="https://i.ibb.co/mF56tsjN/carousel-2-10.jpg" alt="照片10" loading="lazy">
+                <img src="https://i.ibb.co/snQ1y7C/carousel-2-12.jpg" alt="照片11" class="focus-center" loading="lazy">
+                <img src="https://i.ibb.co/7dDRrSw2/carousel-2-13.jpg" alt="照片12" loading="lazy">
+            </div>
+            <button class="carousel-button next">❯</button>
+            <div class="carousel-dots"></div>
+        </div>
+    </section>
+
+    <section id="photo-wall" class="photo-wall-section">
+        <h2>照片墙</h2>
+        <div class="photo-grid">
+            <div class="photo-item">
+                <img src="https://i.ibb.co/SX6JWMbN/grid-1.jpg" alt="照片墙1" loading="lazy">
+            </div>
+            <div class="photo-item">
+                <img src="https://i.ibb.co/6cNmYyX9/grid-2.jpg" alt="照片墙2" loading="lazy">
+            </div>
+            <div class="photo-item">
+                <img src="https://i.ibb.co/tM1yJDCz/grid-3.jpg" alt="照片墙3" loading="lazy">
+            </div>
+            <div class="photo-item">
+                <img src="https://i.ibb.co/JW8gzKh1/grid-4.jpg" alt="照片墙4" loading="lazy">
+            </div>
+            <div class="photo-item">
+                <img src="https://i.ibb.co/cXJ1ygpD/grid-5.jpg" alt="照片墙5" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>关于我们</h2>
+        <div class="about-content">
+            <img src="https://i.ibb.co/MkvCRFJY/couple-1.jpg" alt="我们的合照" class="about-image">
+            <div class="about-text">
+                <p class="love-date">相恋于 2022年10月19日</p>
+                <p class="love-story">缘分让我们在秋天相遇，</p>
+                <p class="love-story">那是一个温暖的十月，树叶正泛着金黄，</p>
+                <p class="love-story">从此我的生命里多了一抹温暖的色彩。</p>
+                <p class="love-quote">愿时光能缓，</p>
+                <p class="love-quote">让我们慢慢变老，</p>
+                <p class="love-quote">在漫长岁月里，</p>
+                <p class="love-quote">我们相依相偎，</p>
+                <p class="love-quote">写下属于我们的故事。</p>
+                <p class="love-days">我们已经相爱了 <span id="loveDays">0</span> 天</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>联系我们</h2>
+        <div class="social-links">
+            <a href="#" class="social-link" id="wechatLink">
+                <img src="https://i.ibb.co/ksJ8YCFd/wechat.jpg" alt="微信">
+                <span>微信</span>
+            </a>
+            <div id="wechatQR" class="qr-modal">
+                <div class="qr-content">
+                    <span class="close-qr">&times;</span>
+                    <img src="https://i.ibb.co/ns5g6VTC/wechat-qr.jpg" alt="微信二维码">
+                    <p>扫码添加微信</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 我们的故事</p>
+    </footer>
+
+    <script src="personal.js"></script>
+</body>
+</html> 
