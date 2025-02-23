@@ -124,5 +124,5 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(() => {
         currentIndex = (currentIndex + 1) % images.length;
         showImage(currentIndex);
-    }, 5000);  // 每5秒切换一次
+    }, 3000);  // 每3秒切换一次
 }); 
